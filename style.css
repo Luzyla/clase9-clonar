@@ -1,0 +1,87 @@
+body {
+    background-color: #fafafa;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------------
+        NAV BAR
+----------------------------------*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav {
+    margin-left: 60%;
+}
+
+.menu {
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+/*--------------------------------
+        SECCIÓN HOLA
+----------------------------------*/
+
+.seccion-1 { 
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.contenedor-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: orchid;
+    width: 600px;
+}
+
+.contenido-1 {
+    width: 300px;
+    height: 300px;
+    background-color: olivedrab;
+    padding: 30px;
+}
+
+img {
+    width: 200px;
+}
+
+
+
+/*--------------------------------
+        SECCIÓN CONOCIMIENTOS
+----------------------------------*/
+
+.seccion-2 {
+    background-color: red;
+    height: 400px;
+}
+
+.seccion-3 {
+    background-color: blue;
+    height: 400px;
+}
+
+.seccion-4 {
+    background-color: orangered;
+    height: 400px;
+}
+
+
